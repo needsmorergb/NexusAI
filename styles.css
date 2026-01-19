@@ -1057,16 +1057,17 @@ section {
 .cta-container {
     max-width: 900px;
     margin: 0 auto;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(14, 165, 233, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(8, 145, 178, 0.08) 0%, rgba(20, 184, 166, 0.05) 100%);
     border-radius: 32px;
     padding: 60px;
-    border: 1px solid rgba(99, 102, 241, 0.3);
+    border: 1px solid rgba(8, 145, 178, 0.2);
     text-align: center;
 }
 
 .cta-content h2 {
     font-size: 40px;
     margin-bottom: 16px;
+    color: var(--text-dark);
 }
 
 .cta-content p {
@@ -1090,10 +1091,10 @@ section {
 .cta-form select {
     flex: 1;
     padding: 16px 20px;
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px solid var(--border-subtle);
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 12px;
-    color: var(--text-primary);
+    color: var(--text-dark);
     font-size: 15px;
     font-family: 'Inter', sans-serif;
     transition: var(--transition-smooth);
@@ -1109,15 +1110,15 @@ section {
 }
 
 .cta-form select option {
-    background: var(--bg-dark);
-    color: var(--text-primary);
+    background: #ffffff;
+    color: var(--text-dark);
 }
 
 .cta-form input:focus,
 .cta-form select:focus {
     outline: none;
     border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+    box-shadow: 0 0 0 3px rgba(8, 145, 178, 0.15);
 }
 
 .form-note {
